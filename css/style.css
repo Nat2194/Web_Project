@@ -93,8 +93,8 @@ a:hover {
   flex-direction: row;
 }
 
-.flex-row-md {
-  flex-direction: row;
+.flex-row-reverse {
+  flex-direction: row-reverse;
 }
 
 .justify-center {
@@ -127,6 +127,30 @@ a:hover {
 
 .gap-20 {
   gap: 5rem;
+}
+
+.fg-1 {
+  flex-grow: 1;
+}
+
+.fg-2 {
+  flex-grow: 2;
+}
+
+.fg-3 {
+  flex-grow: 3;
+}
+
+.fg-4 {
+  flex-grow: 4;
+}
+
+.fg-5 {
+  flex-grow: 5;
+}
+
+.fg-10 {
+  flex-grow: 10;
 }
 
 /* Color */
@@ -177,6 +201,31 @@ button {
 .button:hover {
   background-color: #000;
   color: #fff;
+}
+
+/* Div containing the search bar and the search button */
+.search {
+  width: 45vh;
+}
+
+/*  Search Bar */
+.search-bar {
+  border: solid;
+  border-color: #000;
+  border-width: 1px;
+  max-height: 1.5rem;
+  text-align: left;
+  border-radius: 0.25rem;
+}
+
+.search-bar:hover {
+  border-width: 2px;
+}
+
+.search-logo {
+  align-self: right;
+  position: sticky;
+  right: 0px;
 }
 
 /* Size */
@@ -279,6 +328,10 @@ button {
 
 .p-8 {
   padding: 2rem;
+}
+
+.p-24 {
+  padding: 6rem;
 }
 
 .px-2 {

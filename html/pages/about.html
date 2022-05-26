@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="../../img/arrow.png" type="image/x-icon" />
   </head>
 
-  <body class="w-screen">
+  <body class="w-full">
     <header class="flex flex-wrap justify-between w-screen border-b">
       <a href="../../index.html"
         ><img
@@ -19,177 +19,187 @@
           style="height: 8rem"
       /></a>
       <div class="flex items-center gap-4 p-2">
-        <img
-          src=".../../img/icons/search.svg"
-          style="height: 2rem"
-          alt=""
-          srcset=""
+        <input
+          type="image"
+          src="../../img/icons/search.svg"
+          name="search"
+          height="32px"
+          alt="search"
         />
         <a href="#">Browse</a>
         <a href="#">News</a>
         <a href="../../html/pages/about.html">About</a>
         <a href="#">Help</a>
         <a href="../../html/pages/login.html">Login</a>
-        <a href="#" class="bg-grey bg-grey-hover text-white font-bold p-2"
+        <a
+          href="html/pages/login.html"
+          class="bg-grey bg-grey-hover text-white font-bold p-2"
           >Sign Up</a
         >
         <a href="#" class="button p-2">Sell</a>
       </div>
     </header>
 
-    <div class="flex flex-col m-24 gap-8">
-      <div class="flex justify-center text-xxl font-bold">About StockY</div>
-      <div class="text-m">
-        <p>
-          StockY is a completely unprecedented online marketplace and clothing
-          reseller, primarily of sneakers.
-        </p>
-        <p>
-          This company has been founded by Théo Lasnier and Nathan Carlier, two
-          awesome businessmen well-known for the success of their Mexican
-          restaurant chain start-up 'Avocado del Diablo' in 2020.
-        </p>
-        <p>We deny any relation with StockX.</p>
-      </div>
-    </div>
-
-    <div class="flex flex-col m-24 text-center gap-8">
-      <div class="flex justify-center text-xxl font-bold">
-        Our Sneakers Brands
-      </div>
-      <div>
-        <div class="text-xl flex flex-row items-center">
-          <img src="../../img/logos/jordan.jpg" class="img-logo" />
-          <div>Ground Jordan</div>
-        </div>
-        <div class="text-m">
-          <p>The mythical Air Jordan, but cheaper and better</p>
-        </div>
-      </div>
-      <div>
-        <div class="text-xl flex flex-row items-center gap-4">
-          <img src="../../img/logos/yard.jpg" class="img-logo" />
-          <div>Yard</div>
-        </div>
+    <div class="flex flex-col">
+      <div class="flex flex-col p-24 gap-8">
+        <div class="flex justify-center text-xxl font-bold">About StockY</div>
         <div class="text-m">
           <p>
-            This brand is like Yeezy but it goes hard. Designed for winners and
-            leaders, not for people who take it easy.
+            StockY is a completely unprecedented online marketplace and clothing
+            reseller, primarily of NFTs of sneakers counterfeits.
           </p>
-        </div>
-      </div>
-      <div>
-        <div class="text-xl flex flex-row items-center gap-4">
-          <img src="../../img/logos/itta.jpg" class="img-logo" />
-          <div>Ita</div>
-        </div>
-        <div class="text-m">
           <p>
-            Did you know that Nike means "Victory" in greek ? Well, Itta means
-            defeat in greek. Yes, it's totally uncool but at least it's cheap.
-            Itta's newest collections like the Ground Min and the Layup pay
-            tribute to the Nike Air Max and Nike Dunk.
+            This company has been founded by Théo Lasnier and Nathan Carlier,
+            two awesome businessmen well-known for the success of their Mexican
+            restaurant chain start-up 'Avocado del Diablo' in 2020.
           </p>
-        </div>
-      </div>
-      <div>
-        <div class="text-xl flex flex-row items-center gap-4">
-          <img src="../../img/logos/vans.jpg" class="img-logo" />
-          <div>Manuel Vans</div>
-        </div>
-        <div class="text-m">
-          <p>Do I really need to explain this one ? Come on.</p>
+          <p>We deny any relation with StockX.</p>
         </div>
       </div>
 
-      <div class="flex justify-center text-xxl font-bold">
-        Our Clothes Brands
-      </div>
-      <div>
-        <div class="text-xl flex flex-row items-center gap-4">
-          <div class="wlone-logo">W</div>
-          <div>Wlone</div>
+      <div class="flex flex-col p-24 text-center gap-8">
+        <div class="flex justify-center text-xxl font-bold">
+          Our Sneakers Brands
         </div>
-        <div class="text-m">
-          <p>
-            It's twice as good as Vlone, but twice cheaper (source : trust me).
-          </p>
-        </div>
-      </div>
-      <div>
-        <div class="text-xl flex flex-row items-center gap-4">
-          <img src="../../img/logos/monsombre.jpg" class="img-logo" />
-          <div>Monsombre</div>
-        </div>
-        <div class="text-m">
-          <p>
-            Moncler is a bit too bright and gets stained easily. With Monsombre,
-            your clothes will look clean longer.
-          </p>
-        </div>
-      </div>
-      <div>
-        <div class="text-xl flex flex-row items-center gap-4">
-          <img src="../../img/logos/kanye.jpg" class="img-logo" />
-          <div>Kanye East Hoodies</div>
-        </div>
-        <div class="text-m">
-          <p>
-            Kanye West is quite famous so I shouldn't have to explain a pun this
-            obvious. I'm ashamed of it to be honest.
-          </p>
-        </div>
-      </div>
-      <div>
-        <div class="text-xl flex flex-row items-center gap-4">
-          <div class="infime-logo px-4 py-2">Infime</div>
-          <div>Infime</div>
-        </div>
-        <div class="text-m">
-          <p>
-            Supreme seemed too pretentious so we created Infime for people who
-            lack self-esteem. We think about everyone.
-          </p>
-        </div>
-      </div>
-
-      <div class="flex justify-center text-xxl font-bold">
-        Our Gaming Brands
-      </div>
-      <div>
-        <div class="text-xl flex flex-row items-center gap-4">
-          <img src="../../img/logos/ybox.jpg" class="img-logo" />
-          <div>Ybox</div>
-        </div>
-        <div class="text-m">
-          <p>The StockY version of Xbox.</p>
-        </div>
-      </div>
-      <div>
-        <div class="text-xl flex flex-row items-center gap-4">
-          <img src="../../img/logos/Atari-Logo-650x366.png" class="img-logo" />
-          <div>Atari</div>
-        </div>
-        <div class="text-m">
-          <p>Do you really want to purchase an Atari in 2022 ?</p>
-        </div>
-      </div>
-      <div>
         <div>
+          <div class="text-xl flex flex-row items-center">
+            <img src="../../img/logos/jordan.jpg" class="img-logo" />
+            <div>Ground Jordan</div>
+          </div>
+          <div class="text-m">
+            <p>The mythical Air Jordan, but cheaper and better</p>
+          </div>
+        </div>
+        <div>
+          <div class="text-xl flex flex-row items-center gap-4">
+            <img src="../../img/logos/yard.jpg" class="img-logo" />
+            <div>Yard</div>
+          </div>
+          <div class="text-m">
+            <p>
+              This brand is like Yeezy but it goes hard. Designed for winners
+              and leaders, not for people who take it easy.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="text-xl flex flex-row items-center gap-4">
+            <img src="../../img/logos/itta.jpg" class="img-logo" />
+            <div>Ita</div>
+          </div>
+          <div class="text-m">
+            <p>
+              Did you know that Nike means "Victory" in greek ? Well, Itta means
+              defeat in greek. Yes, it's totally uncool but at least it's cheap.
+              Itta's newest collections like the Ground Min and the Layup pay
+              tribute to the Nike Air Max and Nike Dunk.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="text-xl flex flex-row items-center gap-4">
+            <img src="../../img/logos/vans.jpg" class="img-logo" />
+            <div>Manuel Vans</div>
+          </div>
+          <div class="text-m">
+            <p>Do I really need to explain this one ? Come on.</p>
+          </div>
+        </div>
+
+        <div class="flex justify-center text-xxl font-bold">
+          Our Clothes Brands
+        </div>
+        <div>
+          <div class="text-xl flex flex-row items-center gap-4">
+            <div class="wlone-logo">W</div>
+            <div>Wlone</div>
+          </div>
+          <div class="text-m">
+            <p>
+              It's twice as good as Vlone, but twice cheaper (source : trust
+              me).
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="text-xl flex flex-row items-center gap-4">
+            <img src="../../img/logos/monsombre.jpg" class="img-logo" />
+            <div>Monsombre</div>
+          </div>
+          <div class="text-m">
+            <p>
+              Moncler is a bit too bright and gets stained easily. With
+              Monsombre, your clothes will look clean longer.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="text-xl flex flex-row items-center gap-4">
+            <img src="../../img/logos/kanye.jpg" class="img-logo" />
+            <div>Kanye East Hoodies</div>
+          </div>
+          <div class="text-m">
+            <p>
+              Kanye West is quite famous so I shouldn't have to explain a pun
+              this obvious. I'm ashamed of it to be honest.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="text-xl flex flex-row items-center gap-4">
+            <div class="infime-logo px-4 py-2">Infime</div>
+            <div>Infime</div>
+          </div>
+          <div class="text-m">
+            <p>
+              Supreme seemed too pretentious so we created Infime for people who
+              lack self-esteem. We think about everyone.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex justify-center text-xxl font-bold">
+          Our Gaming Brands
+        </div>
+        <div>
+          <div class="text-xl flex flex-row items-center gap-4">
+            <img src="../../img/logos/ybox.jpg" class="img-logo" />
+            <div>Ybox</div>
+          </div>
+          <div class="text-m">
+            <p>The StockY version of Xbox.</p>
+          </div>
+        </div>
+        <div>
+          <div class="text-xl flex flex-row items-center gap-4">
+            <img
+              src="../../img/logos/Atari-Logo-650x366.png"
+              class="img-logo"
+            />
+            <div>Atari</div>
+          </div>
+          <div class="text-m">
+            <p>Do you really want to purchase an Atari in 2022 ?</p>
+          </div>
+        </div>
+        <div>
+          <div>
             <div class="text-xl flex flex-row items-center gap-4">
               <img src="../../img/logos/gameboy.webp" class="img-logo" />
               <div>Gameboy</div>
             </div>
-        <div class="text-m">
-          <p>For the nostalgic ones.</p>
+            <div class="text-m">
+              <p>For the nostalgic ones.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <footer class="w-screen">
+    <footer class="w-full">
       <div class="flex flex-col justify-around bg-grey text-white p-8">
         <div class="flex text-xxl">StockY. Enter the Immediate.</div>
-        <div class="flex flex-wrap text-white text-sm my-4 gap-20">
+        <div class="flex flex-wrap text-white text-sm my-4 gap-16">
           <div class="flex flex-col gap-2">
             <a class="text-m font-bold" href="#">Ground Jordan</a>
 
